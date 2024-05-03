@@ -7,7 +7,7 @@ function Layout({ children }) {
   return (
     <Flex  bg="gray.200"> {/* Flex container for horizontal layout */}
       <Box
-        flex="0 0 20%" // 20% width, no flex-grow
+        flex="0 0 18%" // 20% width, no flex-grow
         bg="gray.200" // Background color for the sidebar
         boxShadow="xl" // Box shadow on the right
         height="100vh" // Full height
@@ -17,8 +17,10 @@ function Layout({ children }) {
       </Box>
 
       <Box
-        ml="20%" // Move main content 20% to avoid overlap with fixed sidebar
-        flex="1" // Main content area takes the rest
+        ml="15%" // Move main content 20% to avoid overlap with fixed sidebar
+        flex="1"
+        pt='2%'
+        pl='3%' // Main content area takes the rest
       >
         <BreadcrumbComponent /> {/* Breadcrumb at the top */}
         <Box p={4}> {/* Padding for main content */}

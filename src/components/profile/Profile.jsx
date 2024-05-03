@@ -1,5 +1,6 @@
 import React from 'react'
 import profileimg from '../../assets/imgs/profileimg.jpg'
+import '../dashboard/dash.css'
 
 function Profile() {
   return (
