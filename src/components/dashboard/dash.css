@@ -1,0 +1,55 @@
+.profile-info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.dash-container{
+  display: flex;
+}
+.profile-info-inner {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+.profile-info-inner img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+.profile-info-inner div {
+  display: grid;
+  justify-items: flex-start;
+}
+.dash-container{
+  display:flex;
+  justify-content: space-between;
+}
+.dashboard-left{
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 1rem;
+}
+.dashboard-right{
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+.profile-info-inner div h3 {
+  font-weight: 600;
+  font-size: 19px;
+}
+.profile-info-inner h1 {
+  color: green;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.conditate-score{
+  margin: 2rem 0;
+}
+ .sales-f{
+display: flex;
+justify-content: space-between;
+}
