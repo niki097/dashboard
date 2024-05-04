@@ -15,10 +15,12 @@ function DashLeft() {
       boxShadow="2xl" // Right-side box shadow
       position="fixed" // Fixes the sidebar in place
     >
-      <VStack align="stretch" p={4}> {/* Stack elements vertically */}
-        <Text fontSize="lg">Hii, AltWorld</Text> {/* Greeting */}
-        {/* Add additional content or links as needed */}
-      </VStack>
+  <VStack align="stretch" p={4}>
+
+  <Text fontSize="lg">Hii, AltWorld</Text> {/* Greeting */}
+
+</VStack>
+
       <Box borderWidth="1px" borderRadius="lg" p="4">
       <IconButton
         aria-label="Add file"
